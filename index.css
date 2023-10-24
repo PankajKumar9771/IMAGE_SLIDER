@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  border-radius: 1rem;
+  margin-top: 1rem;
+  /* border: 4px solid black; */
+  height: 31.25rem;
+  width: 62.5rem;
+  margin: 0 auto;
+  position: relative;
+  /* top: 3; */
+  /* transition: 51s; */
+  overflow: hidden;
+}
+.slider {
+  margin-top: 1rem;
+  position: absolute;
+  transition: 1s;
+  border-radius: 1rem;
+}
+
+/* Reset some default styles */
+
+/* Style the navbar */
+
+.navbar {
+  background-color: #333; /* Background color for the navbar */
+  overflow: hidden;
+}
+
+/* Style the navigation list */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+.nav-list li {
+  display: inline; /* Display items horizontally */
+  margin-right: 20px; /* Spacing between items */
+}
+
+/* Style the links */
+.nav-list li a {
+  color: white; /* Link text color */
+  text-decoration: none; /* Remove underlines from links */
+  font-weight: bold; /* Make the text bold */
+  font-size: 18px; /* Font size of the links */
+}
+
+/* Change link color on hover */
+.nav-list li a:hover {
+  color: #ffa500; /* Change the link color on hover (e.g., to orange) */
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  margin-top: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+button:hover {
+  color: #ffa500;
+}
+
+/* @media only screen and (max-width: 996px) {
+  .btn {
+    justify-content: center;
+    margin-right: 2rem;
+  }
+} */
